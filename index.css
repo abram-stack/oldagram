@@ -1,5 +1,76 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+/* typography */
+.name, .number-likes, .user-name{
+    font-weight: 700;
+}
+.location{
+    font-size: 13px;
+}
+/* layout */
+.container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 15px;
+    border-bottom: 2px solid #C6C6C6;
+}
+.logo{
+    width: 127px;
+    height: 40px;
+}
+.user-avatar, .avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
 }
 
+.post .avatar{
+    width: 32px;
+}
+.post-header{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    gap: 5px;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.action{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.action .icon{
+    width: 23px;
+    height: 23px;
+}
+.action .icon:hover{
+    opacity: 0.5;
+}
+
+.action, .likes, .desc{
+    padding-top: 15px;
+    padding-left:13px;
+    padding-right:13px;
+}
+
+
+.desc{
+    display: flex;
+    gap: 5px;
+}
+.number-likes{
+    margin: 0;
+}
