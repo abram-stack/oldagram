@@ -60,12 +60,13 @@ html, body {
     opacity: 0.5;
 }
 
-.action, .likes, .desc{
-    padding-top: 15px;
-    padding-left:13px;
-    padding-right:13px;
+.action, .desc{
+   padding: 10px 13px
 }
-
+.likes{
+    padding-left: 13px;
+    padding-right: 13px;
+}
 
 .desc{
     display: flex;
